@@ -1,0 +1,59 @@
+/* --------------box Sizing------------------*/
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+/* ------------------Utility classes----------------------- */
+.container {
+    width: 80vw;
+    margin: 40px auto;
+}
+
+img{
+    max-width:100%;
+}
+
+.img-right{
+    float:right;
+    margin-left:20px;
+    boarder:2px solid #c0c0c0;
+    padding:5px;
+}
+
+.img-left{
+    float:left;
+    margin-left:20px;
+    boarder:2px solid #c0c0c0;
+    padding:5px;
+}
+
+.img-conter{
+    display:block;
+    margin:20px auto;
+    border:2px solid #c0c0c0;
+    padding:5px;
+}
+
+/* ---------------Global Sytle----------------*/
+
+/* Color Scheme
+
+*/
+body{
+    font-family: "L eague Spartan", sans-serif;
+    margin: 0;
+    background-image: url("");
+
+}
+
+header.primary {
+    background-color: #3b638b;
+    text-align: conter;
+    color:#ffffff;
+    padding: 40px;
+}
